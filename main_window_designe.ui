@@ -6,19 +6,19 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>600</width>
+    <width>800</width>
     <height>500</height>
    </rect>
   </property>
   <property name="minimumSize">
    <size>
-    <width>600</width>
+    <width>800</width>
     <height>500</height>
    </size>
   </property>
   <property name="maximumSize">
    <size>
-    <width>600</width>
+    <width>800</width>
     <height>500</height>
    </size>
   </property>
@@ -30,7 +30,7 @@
     <rect>
      <x>30</x>
      <y>60</y>
-     <width>531</width>
+     <width>741</width>
      <height>341</height>
     </rect>
    </property>
@@ -54,8 +54,8 @@
   <widget class="QPushButton" name="btn_search">
    <property name="geometry">
     <rect>
-     <x>500</x>
-     <y>450</y>
+     <x>700</x>
+     <y>430</y>
      <width>75</width>
      <height>23</height>
     </rect>
@@ -64,34 +64,34 @@
     <string>Найти</string>
    </property>
   </widget>
-  <widget class="QSpinBox" name="sp_size">
+  <widget class="QWidget" name="">
    <property name="geometry">
     <rect>
-     <x>100</x>
-     <y>460</y>
-     <width>42</width>
+     <x>230</x>
+     <y>430</y>
+     <width>91</width>
      <height>22</height>
     </rect>
    </property>
-   <property name="minimum">
-    <number>1</number>
-   </property>
-   <property name="maximum">
-    <number>100</number>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label">
-   <property name="geometry">
-    <rect>
-     <x>40</x>
-     <y>460</y>
-     <width>51</width>
-     <height>16</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Маштаб:</string>
-   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>Маштаб:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QSpinBox" name="sp_size">
+      <property name="minimum">
+       <number>1</number>
+      </property>
+      <property name="maximum">
+       <number>100</number>
+      </property>
+     </widget>
+    </item>
+   </layout>
   </widget>
  </widget>
  <resources/>
